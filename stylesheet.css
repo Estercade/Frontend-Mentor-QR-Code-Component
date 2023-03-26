@@ -30,6 +30,23 @@ body * {
     margin: auto auto;
 }
 
+.card-text, .card-subtext {
+    text-align: center;
+}
+
+.card-text {
+    margin-top: 10px;
+    margin-bottom: -15px;
+    color: #1C2A45;
+    flex: 1 1 0;
+}
+
+.card-subtext {
+    margin-bottom: 10px;
+    color: #93939B;
+    flex: 1 1 0;
+}
+
 .qrCode {
     border-radius: 10px;
     max-width: 300px;

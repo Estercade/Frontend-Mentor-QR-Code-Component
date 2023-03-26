@@ -3,6 +3,45 @@
 /* Main card text color: #1C2A45 */
 /* Main card subtext color: #93939B */
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body * {
+    font-family: 'Tw Cen MT Bold', sans-serif;
+}
 
+.background {
+    background-color: #D5E1EF;
+    height: 96vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 300px;
+    max-height: 500px;
+    flex: 1;
+    align-self: center;
+    margin: auto auto;
+}
+
+.qrCode {
+    border-radius: 10px;
+    max-width: 300px;
+    flex: 1 1 0;
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    background-color: #D5E1EF;
+    margin-top: auto;
+    
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
